@@ -1,0 +1,23 @@
+.custom-input{
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid rgb(167, 164, 164);
+    border-radius: 5px;
+    width: 70vw;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.custom-input:focus{
+    outline: none;
+    border-color: white;
+}
+
+.lable-input{
+    color: purple;
+}
+.active{
+    border-color: white;
+}

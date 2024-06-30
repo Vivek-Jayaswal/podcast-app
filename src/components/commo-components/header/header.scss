@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    .links{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-weight: 600;
+    }
+
+    .links a{
+        text-decoration: none;
+        color : #8ea6bb
+    }
+
+    .links a:hover{
+        color: white;
+        transition: all 0.3s;
+    }
+    .active{
+        color: white !important;
+    }
+
+    .gradient{
+        position: absolute;
+        width: 800px;
+        height: 150px;
+        margin: auto;
+        background: #25aed4;
+        filter: blur(90px);
+        z-index: -1;
+        top: -120px;
+    }
+}
